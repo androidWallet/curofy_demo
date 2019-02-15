@@ -7,11 +7,9 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import com.mguru.myapplication.R
-import com.mguru.myapplication.data.database.LocalDB
 import com.mguru.myapplication.data.model.Todo
 import com.mguru.myapplication.utils.SearchListData
 import kotlinx.android.synthetic.main.item_recycler_view.view.*
-import java.util.*
 
 class TodoAdapter(private val mTodoList: List<Todo>,
                   private val listItemClickListener: ListItemClickListener) : RecyclerView.Adapter<TodoAdapter.ViewHolder>(), Filterable {

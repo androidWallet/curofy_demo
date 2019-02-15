@@ -31,7 +31,7 @@ object LocalDB {
     }
 
     /**
-     * get to do list in from local DB
+     * retrive to do list from local DB
      * @return -> array list of to do data
      */
     fun getToDoListFromLocal(): ArrayList<Todo> {
